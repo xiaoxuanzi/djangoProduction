@@ -1,6 +1,6 @@
 # djangoProduction
 HANDLING CUSTOM ERROR PAGES(404, 500) IN DJANGO
-DEBUG = False
+AND DEBUG = False
 <pre><code>
 Steps：
 +DEBUG = False
