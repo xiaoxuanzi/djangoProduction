@@ -12,3 +12,6 @@ def index(request):
 
 def hello(request):
     return render(request, 'hello.html')
+
+def page_not_found(request):
+    return render(request, '404.html')
