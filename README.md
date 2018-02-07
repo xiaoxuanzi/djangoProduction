@@ -1,5 +1,6 @@
 # djangoProduction
 自定义404页面
+<pre><code>
 步骤：
 +DEBUG = False
 +ALLOWED_HOSTS = ['10.10.13.99']
@@ -31,3 +32,4 @@
 +def page_not_found(request):
 +    return render(request, '404.html')
 
+</pre></code>
