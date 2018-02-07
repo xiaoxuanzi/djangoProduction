@@ -1,7 +1,8 @@
 # djangoProduction
-自定义404页面
+HANDLING CUSTOM ERROR PAGES(404, 500) IN DJANGO
+DEBUG = False
 <pre><code>
-步骤：
+Steps：
 +DEBUG = False
 +ALLOWED_HOSTS = ['10.10.13.99']
 +STATIC_ROOT = os.path.join(BASE_DIR, 'static')
